@@ -22,8 +22,13 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
+* {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
 body {
-  margin: 0;
+  margin: 20px;
 }
 
 /**
