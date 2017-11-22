@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
 gem 'devise'
 gem 'pry'
 

@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users do
-     get '/users/sign_out' => 'devise/sessions#destroy'
-   end
+  devise_for :users, :controllers => { :omniauth_callbacks => "callbacks" }
 
   resources :pets
   resources :dogs
